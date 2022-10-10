@@ -68,7 +68,7 @@ header {
 
 .hero {
     width: 80%;
-    max-width: 1240px;
+    max-width: 1600px;
     height: 800px;
     padding-top: 100px;
     margin: 0 auto;
@@ -82,6 +82,7 @@ header {
     font-size: 50px;
     /* debug */
     background-color: #fff;
+    border: solid 1px black;
 }
 
 .hero-elements {
@@ -95,4 +96,152 @@ header {
 
 .text-hero, .img-hero {
     width: 50%;
-} 
+    border: solid 1px black;
+}
+
+/* regole generali main */
+.small-section {
+    width: 60%;
+    margin: 100px auto;
+    /* debug */
+    height: 1200px;
+    background-color: red;
+}
+
+.title-section {
+    /* debug */
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    border: solid 1px black;
+    margin-bottom: 50px;
+}
+
+/* regole sezione piani tariffari */
+.billing {
+    /* debug */
+    background-color: green;
+    height: 50px;
+    width: 100%;
+    border: solid 1px black;
+    margin-bottom: 50px;
+}
+
+.conteiner-rate-plane {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    /* debug */
+    height: 500px;
+    background-color: green;
+    border: solid 1px black;
+}
+
+.slot-rate {
+    width: 30%;
+    padding: 10px;
+    /* debug */
+    height: 100%;
+    background-color: purple;
+}
+
+.slot-custom-rate {
+    width: 100%;
+    /* debug */
+    height: 300px;
+    background-color: purple;
+}
+
+/* regole sezione descrizione dropbox */
+.conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* debug */
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.slot-img, .slot-text {
+    width: 50%;
+    /* debug */
+    height: 500px;
+    background-color: purple;
+    border: solid 1px black;
+}
+
+.slot-functions-db {
+    width: calc(100% / 3);
+    height: 200px;
+    background-color: purple;
+    border: solid 1px black;
+}
+
+/* regole sezione clienti*/
+.big-section {
+    width: 100%;
+    /* debug */
+    height: 1200px;
+    background-color: red;
+}
+
+.big-section > .conteiner {
+    /* debug */
+    height: 500px;
+    margin-bottom: 150px;
+}
+
+.slot-title {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.link-info-customers {
+    /* debug */
+    background-color: green;
+    height: 50px;
+    width: 100%;
+    border: solid 1px black;
+    margin-bottom: 50px;
+}
+
+.conteiner-customers-brand, .description-customers {
+    width: calc(100% / 3);
+    /* debug */
+    margin: 50px 0;
+    height: 500px;
+    background-color: green;
+    border: solid 1px black;
+}
+
+.conteiner-customers-brand {
+    display: flex;
+    flex-wrap:wrap; 
+}
+
+.slot-brand {
+    width: 50%;
+    /* debug */
+    background-color: purple;
+    border: solid 1px black;
+    height: 50%;
+}
+
+/* regole sezione FAQ */
+.faq {
+    width: 100%;
+    /* debug */
+    height: 800px;
+    background-color: green;
+    border: solid 1px black;
+}
+
+.faq-slot {
+    width: 100%;
+    height: 200px;
+    background-color: purple;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
