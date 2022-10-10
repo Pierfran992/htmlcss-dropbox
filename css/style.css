@@ -4,3 +4,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* bedug */
+body {
+    background-color: blue;
+}
+
+/* regole header */
+
+.conteiner-top-bar {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left, .top-right {
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo, .cnt-btn-start {
+    width: 25%;
+}
+
+.menu {
+    width: 70%;
+}
+
+.menu-info, .general-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    color: #fff;
+    background-color: #2a60f8;
+    padding: 10px;
+}
+
+.cnt-btn-start {
+    text-align: end;
+}
