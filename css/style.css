@@ -10,7 +10,10 @@ body {
 }
 
 /* regole header */
-
+header {
+    margin-bottom: 150px;
+}
+/* regole generali top-bar */
 .conteiner-top-bar {
     background-color: #fff;
     width: 100%;
@@ -54,3 +57,42 @@ body {
 .cnt-btn-start {
     text-align: end;
 }
+
+/* regole generali hero */
+.conteiner-hero {
+    margin-top: 100px;
+    background-color: #b7cde4;
+    height: 800px;
+    width: 100%;
+}
+
+.hero {
+    width: 80%;
+    max-width: 1240px;
+    height: 800px;
+    padding-top: 100px;
+    margin: 0 auto;
+    /* debug */
+    border: solid 2px black;
+}
+
+.page-title {
+    width: 100%;
+    height: 200px;
+    font-size: 50px;
+    /* debug */
+    background-color: #fff;
+}
+
+.hero-elements {
+    width: 100%;
+    height: calc(100% - 200px);
+    padding-top: 50px;
+    display: flex;
+    /* debug */
+    background-color: #fff;
+}
+
+.text-hero, .img-hero {
+    width: 50%;
+} 
