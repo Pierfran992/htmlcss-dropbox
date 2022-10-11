@@ -13,11 +13,6 @@ a {
     text-decoration: none;
 }
 
-img {
-    max-width: 100%;
-    padding-top: 30px;
-}
-
 /* regole header */
 header {
     margin-bottom: 150px;
@@ -119,6 +114,11 @@ header li:hover {
 
 .go-down {
     font-size: 40px;
+}
+
+#hero-img {
+max-width: 100%;
+padding-top: 30px;
 }
 /* regole generali main */
 .small-section {
