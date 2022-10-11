@@ -18,15 +18,21 @@ a {
 .btn {
     color: #fff;
     background-color: #2a60f8;
-    height: 50px;
-    width: 300px;
+    width: 400px;
     text-align: center;
-    line-height: 50px;
-    vertical-align: middle;
+    padding: 10px;
 }
 
 .btn > a {
     color: #fff;
+}
+
+.small-btn {
+    width: 100px;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* regole header */
@@ -51,11 +57,11 @@ header {
     height: 100%;
     padding: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.logo, .cnt-btn-start {
+.logo, {
     width: 25%;
 }
 
@@ -75,10 +81,6 @@ header a {
 
 header li:hover {
     border-bottom: solid 1px #000000;
-}
-
-.cnt-btn-start {
-    text-align: end;
 }
 
 /* regole generali hero */
@@ -138,7 +140,7 @@ padding-top: 30px;
 
 .title-section {
     font-size: 55px;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 
 /* regole sezione piani tariffari */
@@ -199,7 +201,7 @@ padding-top: 30px;
 }
 
 .free-trial {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .small-line {
@@ -218,7 +220,13 @@ padding-top: 30px;
 }
 
 .conteiner-td-custom {
+    padding: 30px;
     display: flex;
+    justify-content: space-between;
+}
+
+.td > p {
+    padding: 100px 0;
 }
 
 /* regole sezione descrizione dropbox */
@@ -227,26 +235,41 @@ padding-top: 30px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* debug */
-    height: 500px;
-    margin-bottom: 50px;
+    
 }
 
 .slot-img, .slot-text {
     width: 50%;
-    /* debug */
-    height: 500px;
-    background-color: purple;
-    border: solid 1px black;
+}
+
+.slot-text {
+    margin: 100px 0;
+}
+.slot-text > h3, .slot-functions-db > h3 {
+    font-size: 35px;
+}
+.slot-text > * {
+    margin: 20px 50px;
+}
+
+.white-btn {
+    background-color: #fff;
+    width: 200px;
+    border: solid 1px #000000;
+}
+
+.white-btn > a {
+    color: #000000;
 }
 
 .slot-functions-db {
     width: calc(100% / 3);
-    height: 200px;
-    background-color: purple;
-    border: solid 1px black;
+    margin: 50px 0;
 }
 
+.slot-functions-db > * {
+    padding: 20px 20px;
+}
 /* regole sezione clienti*/
 .big-section {
     width: 100%;
