@@ -273,38 +273,24 @@ padding-top: 30px;
 /* regole sezione clienti*/
 .big-section {
     width: 100%;
-    /* debug */
-    height: 1200px;
-    background-color: red;
+    
 }
 
-.big-section > .conteiner {
-    /* debug */
-    height: 500px;
-    margin-bottom: 150px;
-}
+/* .big-section > .conteiner {
+    
+} */
 
 .slot-title {
     width: 60%;
-    margin: 0 auto;
 }
 
-.link-info-customers {
-    /* debug */
-    background-color: green;
-    height: 50px;
-    width: 100%;
-    border: solid 1px black;
-    margin-bottom: 50px;
+.link-info-customers > a {
+    text-decoration: underline;
 }
 
 .conteiner-customers-brand, .description-customers {
     width: calc(100% / 3);
-    /* debug */
-    margin: 50px 0;
-    height: 500px;
-    background-color: green;
-    border: solid 1px black;
+    
 }
 
 .conteiner-customers-brand {
@@ -314,10 +300,7 @@ padding-top: 30px;
 
 .slot-brand {
     width: 50%;
-    /* debug */
-    background-color: purple;
-    border: solid 1px black;
-    height: 50%;
+    
 }
 
 /* regole sezione FAQ */
