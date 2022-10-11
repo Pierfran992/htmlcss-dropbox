@@ -18,7 +18,7 @@ a {
 .btn {
     color: #fff;
     background-color: #2a60f8;
-    width: 400px;
+    width: 100%;
     text-align: center;
     padding: 10px;
 }
@@ -61,7 +61,7 @@ header {
     align-items: center;
 }
 
-.logo, {
+.logo {
     width: 25%;
 }
 
