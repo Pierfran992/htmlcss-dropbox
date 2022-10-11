@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
 
 li {
@@ -112,7 +114,7 @@ header li:hover {
     padding: 20px 0;
 }
 
-.go-down {
+#go-down {
     font-size: 40px;
 }
 
@@ -124,28 +126,28 @@ padding-top: 30px;
 .small-section {
     width: 60%;
     margin: 100px auto;
-    /* debug */
-    height: 1200px;
-    background-color: red;
 }
 
 .title-section {
-    /* debug */
-    background-color: green;
-    height: 100px;
-    width: 100%;
-    border: solid 1px black;
+    font-size: 55px;
     margin-bottom: 50px;
 }
 
 /* regole sezione piani tariffari */
 .billing {
-    /* debug */
-    background-color: green;
-    height: 50px;
-    width: 100%;
-    border: solid 1px black;
     margin-bottom: 50px;
+}
+
+.billing > span {
+    padding-right: 100px;
+}
+
+#selected {
+    color: #2a60f8;
+}
+
+#no-selected {
+    color: #cfcfd2;
 }
 
 .conteiner-rate-plane {
@@ -153,18 +155,52 @@ padding-top: 30px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
-    /* debug */
-    height: 500px;
-    background-color: green;
-    border: solid 1px black;
 }
 
 .slot-rate {
     width: 30%;
+    height: 1200px;
+    border: solid 1px #ceced1;
+}
+
+.th {
     padding: 10px;
-    /* debug */
-    height: 100%;
-    background-color: purple;
+    text-align: center;
+    border-bottom: solid 1px #ceced1;
+}
+.td {
+    padding: 20px;
+}
+.td > h4 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.list {
+    padding: 50px 0;
+}
+
+.flex {
+    padding: 10px 0;
+    display: flex;
+    align-items: baseline;
+}
+
+.flex > * {
+    padding-right: 5px;
+}
+
+.free-trial {
+    padding-bottom: 50px;
+}
+
+.small-line {
+    color: #ceced1;
+    padding: 50px 0;
+}
+
+.fa-check {
+    color: #2a60f8;
 }
 
 .slot-custom-rate {
