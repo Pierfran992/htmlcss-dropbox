@@ -15,6 +15,20 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    color: #fff;
+    background-color: #2a60f8;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.btn > a {
+    color: #fff;
+}
+
 /* regole header */
 header {
     margin-bottom: 150px;
@@ -61,12 +75,6 @@ header a {
 
 header li:hover {
     border-bottom: solid 1px #000000;
-}
-
-.btn {
-    color: #fff;
-    background-color: #2a60f8;
-    padding: 10px;
 }
 
 .cnt-btn-start {
@@ -205,9 +213,12 @@ padding-top: 30px;
 
 .slot-custom-rate {
     width: 100%;
-    /* debug */
-    height: 300px;
-    background-color: purple;
+    height: 400px;
+    border: solid 1px #ceced1;
+}
+
+.conteiner-td-custom {
+    display: flex;
 }
 
 /* regole sezione descrizione dropbox */
