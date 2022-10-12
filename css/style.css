@@ -124,6 +124,10 @@ header li:hover {
     padding: 20px 0;
 }
 
+.ctr-btn-hero {
+    width: 50%;
+}
+
 #go-down {
     font-size: 40px;
 }
@@ -169,7 +173,6 @@ padding-top: 30px;
 
 .slot-rate {
     width: 30%;
-    height: 1200px;
     border: solid 1px #ceced1;
 }
 
@@ -181,13 +184,16 @@ padding-top: 30px;
 .td {
     padding: 20px;
 }
-.td > h4 {
+.td  h4 {
     font-size: 25px;
     padding-bottom: 20px;
 }
+.td > * {
+    margin-bottom: 50px;
+}
 
-.list {
-    padding: 50px 0;
+.time-user {
+    font-weight: lighter;
 }
 
 .flex {
@@ -198,10 +204,6 @@ padding-top: 30px;
 
 .flex > * {
     padding-right: 5px;
-}
-
-.free-trial {
-    margin-bottom: 50px;
 }
 
 .small-line {
@@ -272,25 +274,26 @@ padding-top: 30px;
 }
 /* regole sezione clienti*/
 .big-section {
+    background-color: #b7cde4;
     width: 100%;
-    
 }
-
-/* .big-section > .conteiner {
-    
-} */
 
 .slot-title {
     width: 60%;
 }
 
-.link-info-customers > a {
+.slot-title a {
     text-decoration: underline;
 }
 
 .conteiner-customers-brand, .description-customers {
     width: calc(100% / 3);
-    
+}
+
+.description-customers {
+    background-color: #f4f4f4;
+    padding: 100px;
+    overflow-y: auto;
 }
 
 .conteiner-customers-brand {
@@ -309,21 +312,54 @@ padding-top: 30px;
     filter: invert(100%);
 }
 
+.flex-brand {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-brand-title {
+    width: 70%;
+    color: #591c2f;
+}
+
+.link-info-customers {
+    width: 25%;
+}
+
+.link-info-customers > .btn {
+    background-color: #fff;
+}
+
+.link-info-customers a {
+    color: #000000;
+}
+
+blockquote > * {
+    padding-bottom: 20px;
+}
+
 /* regole sezione FAQ */
 .faq {
     width: 100%;
-    /* debug */
-    height: 800px;
-    background-color: green;
-    border: solid 1px black;
 }
 
 .faq-slot {
     width: 100%;
-    height: 200px;
-    background-color: purple;
-    border-top: solid 1px black;
-    border-bottom: solid 1px black;
+    padding: 20px 0;
+    border-top: solid 1px #c8c8c8;
+    border-bottom: solid 1px #c8c8c8;
+    display: flex;
+    justify-content: space-between;
+}
+.center {
+    border: none;
+}
+
+.angle-menu {
+    margin-right: 30px;
 }
 
 /* regole genareli footer */
@@ -332,12 +368,14 @@ footer {
     color: #fff;
     background-color: #000000;
     width: 100%;
-    height: 600px;
+}
+
+.conteiner-footer-elements {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .top-footer {
-    width: 80%;
-    margin: 0 auto;
     padding: 150px 0;
     display: flex;
     justify-content: space-between;
@@ -361,4 +399,24 @@ footer li {
 
 footer a {
     color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    height: 1px;
+    width: 100px;
+    border: solid 1px #fff;
+}
+
+.selector-language {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.selector-language > * {
+    padding-right: 10px;
 }
