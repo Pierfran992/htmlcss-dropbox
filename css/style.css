@@ -295,12 +295,18 @@ padding-top: 30px;
 
 .conteiner-customers-brand {
     display: flex;
-    flex-wrap:wrap; 
+    flex-wrap:wrap;
+    align-items: center;
 }
 
 .slot-brand {
     width: 50%;
-    
+    background-color: #2a60f8;
+}
+
+.img-brand {
+    scale: 0.5;
+    filter: invert(100%);
 }
 
 /* regole sezione FAQ */
